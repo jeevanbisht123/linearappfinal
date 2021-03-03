@@ -1,0 +1,36 @@
+step 1: create a new conda environment
+         conda create -n linearapp python==3.6.9
+         conda activate linearapp
+
+Step 2: Install the requiremnents file(sometimes u have to install each file manually also using pip install)
+       pip install -r requirements.txt
+        if this not works , then type command
+        cd file location (this step is to take your interpreter in the folder your file is )
+        pip install -r requirements.txt
+        python main.py (this will give u the url check in that url whether the code is working or not)
+
+ NOTE: IF YOUR CODE IS NOT RUNNING THEN AND ALSO RUNNING IN OTHER CODE WHAT YOU CAN DO YOU CAN SELECT THE CONDA
+ ENVIRONMENT (PYTHON.EXE FILE) FOR THAT CODE WHICH IS RUNNING
+
+note: delete the git folder if present in linear regression app folder
+note: MAKE SURE IN CODE YOU CHOOSE THROUGH SETTING YOU COOSE THE ENVIRONMENT IN WHICH U HAVE INSTALLED THE
+REQUIREMNET.TXT LIBRARIES FOR THAT GO TO SETTING CONDA ENVIRONMENT AND THEN EXISTING ENVIRONMENT THEN SLECT
+LINER APP NOT ANY OTHER ...MAKE SURE THIS
+Step 3: create a Procfile and write web: gunicorn app:app in it. ist app is app.py and 2nd app is flask object
+so make the flask object in app.py from application to app.py
+go to application word right click and select refractor and rename the application to aoo, it wil change the
+application to app in whole code
+
+Step4: make a new file app.py and copy paste the main.py to app.py
+
+step5: go to the folder location , right click for windows user can find gitbash here click it and type git init
+then it will create .git folder in the folder u r working
+
+step6: git add .
+       git status
+       git commit -m "initial commit"
+
+       heroku login
+       git remote -v
+       git push heroku master
+       to delete an app select app and the go to settings and at bottom delete option i sthere , select and delete
